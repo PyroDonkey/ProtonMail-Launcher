@@ -6,7 +6,6 @@ ProtonMail Launcher is a simple Firefox extension that allows you to quickly ope
 
 - Open ProtonMail with a single click from the toolbar.
 - Automatically switches to an existing ProtonMail tab if one is already open.
-- Context menu item for opening ProtonMail.
 - Displays a notification with instructions on how to pin the extension icon to the toolbar after installation.
 
 ## Installation
