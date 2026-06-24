@@ -5,8 +5,9 @@ ProtonMail Launcher is a simple Firefox extension that allows you to quickly ope
 ## Features
 
 - Open ProtonMail with a single click from the toolbar.
-- Automatically switches to an existing ProtonMail tab if one is already open.
-- Displays a notification with instructions on how to pin the extension icon to the toolbar after installation.
+- Automatically switches to an existing ProtonMail tab if one is already open. If several are open, it switches to the most recently used one and focuses its window.
+- Optional keyboard shortcut to open or switch to ProtonMail (assign your own — see Usage).
+- Opens ProtonMail automatically on first install.
 
 ## Installation
 
@@ -26,4 +27,7 @@ ProtonMail Launcher is a simple Firefox extension that allows you to quickly ope
 
 1. After installation, you will see the ProtonMail Launcher icon in your toolbar.
 2. Click the icon to open ProtonMail. If ProtonMail is already open in a tab, it will switch to that tab.
-3. To pin the icon to the toolbar, click the Firefox Extensions icon (puzzle piece), right-click on "ProtonMail Launcher", and select "Pin to Toolbar".
+3. The first time you use it, Firefox will ask permission to access `mail.proton.me`. This is required so the extension can detect and switch to an existing ProtonMail tab. Click **Allow**. If you decline, the extension will simply open a new tab each time instead of switching.
+4. To pin the icon to the toolbar, click the Firefox Extensions icon (puzzle piece), right-click on "ProtonMail Launcher", and select "Pin to Toolbar".
+
+> To set a keyboard shortcut, go to `about:addons` → gear icon (⚙️) → **Manage Extension Shortcuts**, and assign a key combination to "Open or switch to ProtonMail". No shortcut is set by default.

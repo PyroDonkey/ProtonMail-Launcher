@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "ProtonMail Launcher",
+  "version": "2.0",
+  "description": "Open or switch to ProtonMail from the toolbar.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{b9e14cae-1155-449c-9ab1-dcb3728bcc9e}",
+      "strict_min_version": "115.0"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "action": {
+    "default_icon": "icon128.png",
+    "default_title": "Open ProtonMail"
+  },
+  "icons": {
+    "128": "icon128.png"
+  },
+  "commands": {
+    "open-protonmail": {
+      "description": "Open or switch to ProtonMail"
+    }
+  },
+  "permissions": [
+    "contextMenus"
+  ],
+  "optional_host_permissions": [
+    "https://mail.proton.me/*"
+  ]
+}
