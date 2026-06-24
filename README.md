@@ -18,7 +18,7 @@ ProtonMail Launcher is a simple Firefox extension that allows you to quickly ope
 
 ### Manual Installation
 
-1. Download the latest release of the extension (`.xpi` file) from the [Releases](https://github.com/PyroDonkey/ProtonMail-Launcher/releases/tag/extension) section.
+1. Download the latest release of the extension (`.xpi` file) from the [Releases](https://github.com/PyroDonkey/ProtonMail-Launcher/releases/latest) section.
 2. Open Firefox and navigate to `about:addons`.
 3. Click the gear icon (⚙️) and select "Install Add-on From File...".
 4. Select the downloaded `.xpi` file to install the extension.
