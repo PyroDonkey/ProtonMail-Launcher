@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="48 36.5 416 416" width="32" height="32" role="img" aria-labelledby="title">
+  <title id="title">Envelope, small size</title>
+  <defs>
+    <linearGradient id="flap" x1="48" y1="112" x2="464" y2="272" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B46CFF"/><stop offset="1" stop-color="#4C8DFF"/>
+    </linearGradient>
+    <linearGradient id="sides" x1="48" y1="136" x2="464" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B2CF5"/><stop offset="1" stop-color="#1677FF"/>
+    </linearGradient>
+    <linearGradient id="base" x1="48" y1="280" x2="464" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5B21C9"/><stop offset="1" stop-color="#0B4FC4"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#flap)" d="M62 144.5L256 241.11L450 144.5L420 114.5L92 114.5Z"/>
+  <path fill="url(#sides)" d="M48 374.5L225.81 256.08L48 167.53Z"/>
+  <path fill="url(#sides)" d="M286.19 256.08L464 374.5L464 167.53Z"/>
+  <path fill="url(#base)" d="M464 374.5L286.19 256.08L256 271.11L225.81 256.08L48 374.5Z"/>
+</svg>
