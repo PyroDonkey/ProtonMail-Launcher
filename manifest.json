@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "ProtonMail Launcher",
-  "version": "2.0",
+  "version": "2.0.1",
   "description": "Open or switch to ProtonMail from the toolbar.",
   "browser_specific_settings": {
     "gecko": {
